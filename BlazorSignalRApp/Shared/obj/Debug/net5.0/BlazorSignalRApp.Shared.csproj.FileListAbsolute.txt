@@ -1,0 +1,12 @@
+/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Shared/bin/Debug/net5.0/BlazorSignalRApp.Shared.deps.json
+/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Shared/bin/Debug/net5.0/BlazorSignalRApp.Shared.dll
+/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Shared/bin/Debug/net5.0/ref/BlazorSignalRApp.Shared.dll
+/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Shared/bin/Debug/net5.0/BlazorSignalRApp.Shared.pdb
+/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Shared/obj/Debug/net5.0/BlazorSignalRApp.Shared.csprojAssemblyReference.cache
+/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Shared/obj/Debug/net5.0/BlazorSignalRApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Shared/obj/Debug/net5.0/BlazorSignalRApp.Shared.AssemblyInfoInputs.cache
+/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Shared/obj/Debug/net5.0/BlazorSignalRApp.Shared.AssemblyInfo.cs
+/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Shared/obj/Debug/net5.0/BlazorSignalRApp.Shared.csproj.CoreCompileInputs.cache
+/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Shared/obj/Debug/net5.0/BlazorSignalRApp.Shared.dll
+/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Shared/obj/Debug/net5.0/ref/BlazorSignalRApp.Shared.dll
+/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Shared/obj/Debug/net5.0/BlazorSignalRApp.Shared.pdb

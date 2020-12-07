@@ -1,0 +1,223 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Server/BlazorSignalRApp.Server.csproj": {}
+  },
+  "projects": {
+    "/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Client/BlazorSignalRApp.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Client/BlazorSignalRApp.Client.csproj",
+        "projectName": "BlazorSignalRApp.Client",
+        "projectPath": "/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Client/BlazorSignalRApp.Client.csproj",
+        "packagesPath": "/Users/Pick6/.nuget/packages/",
+        "outputPath": "/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Client/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Pick6/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Shared/BlazorSignalRApp.Shared.csproj": {
+                "projectPath": "/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Shared/BlazorSignalRApp.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Server/BlazorSignalRApp.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Server/BlazorSignalRApp.Server.csproj",
+        "projectName": "BlazorSignalRApp.Server",
+        "projectPath": "/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Server/BlazorSignalRApp.Server.csproj",
+        "packagesPath": "/Users/Pick6/.nuget/packages/",
+        "outputPath": "/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Server/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Pick6/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Client/BlazorSignalRApp.Client.csproj": {
+                "projectPath": "/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Client/BlazorSignalRApp.Client.csproj"
+              },
+              "/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Shared/BlazorSignalRApp.Shared.csproj": {
+                "projectPath": "/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Shared/BlazorSignalRApp.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Shared/BlazorSignalRApp.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Shared/BlazorSignalRApp.Shared.csproj",
+        "projectName": "BlazorSignalRApp.Shared",
+        "projectPath": "/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Shared/BlazorSignalRApp.Shared.csproj",
+        "packagesPath": "/Users/Pick6/.nuget/packages/",
+        "outputPath": "/Users/Pick6/Projects/BlazorSignalRApp/BlazorSignalRApp/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Pick6/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
